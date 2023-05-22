@@ -81,12 +81,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
         #以下はpostgresqlを使用した場合（PORT:5432までの6行）
-        #'ENGINE': 'django.db.backends.postgresql',
-        #'NAME': 'djangogirls',
-        #'USER': 'postgres', #userのnameはpostgresqlで設定したユーザ名
-        #'PASSWORD':'1234',
-        #'HOST': 'localhost',
-        #'PORT': '5432',
+        # 'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME': 'djangogirls',
+        # 'USER': 'postgres', #userのnameはpostgresqlで設定したユーザ名
+        # 'PASSWORD':'1234',
+        # 'HOST': 'localhost',
+        # 'PORT': '5432',
     }
 }
 
